@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+
+body { 
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+}
+h1 { font-size: 64px;}
+h1, strong {font-weight: 700;}
+
+/*selector grupal 
+afecta la regla de estilo a cuantos selectores estén en el grupo
+
+selector1, selector2, selector3 { propiedad:valor;}
+*/
+
+h1 strong {font-family: 'Coiny', cursive;
+font-size: 117.33px;
+}
+/*que el strong q está adentro del h1 tiene esas características
+selector descendente padre hijo {afecta a ese hijo pero por encontrarse adentro de ese padre
+*/
+
+h2 {font-weight: 400; font-size: 26.66px;}
+
+h3 { font-weight: 900;}
+
+
+/*    
+Medidas absolutas (no varían según el medio, cm, mm, etc.)
+Medidas relativas (dependen del medio)
+
+-px => depende de la resolución de pantalla
+-em => proporcional
+
+-rem
+-ex
+-vh
+-vw
+
+
+
+
+
+
+*/
+
+
+
+
+
